@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="100.0" prefWidth="275.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oddeven.FXMLDocumentController">
+    <children>
+        <Button fx:id="btn_Click" layoutX="102.5" layoutY="60.0" onAction="#Odd_Even" text="Визначити" />
+        <Label fx:id="lbl_Result" layoutX="91.0" layoutY="95.0" minHeight="16.0" minWidth="110" prefHeight="23.0" prefWidth="85.0" />
+        <TextArea fx:id="txb_Input" layoutX="10.0" layoutY="10.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="5.0" prefWidth="255.0" />
+    </children>
+</AnchorPane>
